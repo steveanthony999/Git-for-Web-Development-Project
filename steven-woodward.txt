@@ -1,0 +1,179 @@
+https://codepen.io/steveanthony999/pen/VwjXKQJ?editors=1100
+
+1. What is Semantic HTML? 
+
+Semantic HTML is HTML where the elements written by the developer are clear in definition.
+
+2. What is HTML used for? 
+
+HTML is markup used for creating web pages.
+
+3. What is an attribute and where do we put it? 
+
+An attribute is additional information about the HTML element and is put directly after the tag.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+
+The h1 tag is used to specify the most important text on the web page and should only be used once.
+
+5. Name two tags that have required attributes
+
+<a>, the anchor tag requires the href attribute. <img>, the image tag requires the src attribute.
+
+6. What do we put in the head of our HTML document? 
+
+Metadata such as title, style, link, and script are placed in the head of our HTML document.
+
+7. What is an id? 
+
+An id is an attribute to define a unique HTML element.
+
+8. What elements can I add an id to? 
+
+Any HTML element can have an id.
+
+9. How many times can I use the same id on a page? 
+
+As id's are unique to their element, they should only be used once.
+
+10. What is a class? 
+
+A class is an attribute that can be given to multiple HTML elements, mainly for styling and JavaScript functions.
+
+11. What elements can I add a class to? 
+
+Any HTML element can have a class.
+
+12. How many times can I use the same class on a page? 
+
+As many times as your heart desires.
+
+13. How do I get my link to open in a new tab?
+
+target-'_blank'
+
+14. What is the alt attribute in the image tag used for? 
+
+In case the image is unable to load, the alt attribute will be displayed instead.
+
+15. How do I reference an id?
+
+#id-name
+
+16. What is the difference between a section and a div
+
+A section is semantic while div is invisible.
+
+17. What is CSS used for? 
+
+CSS is used for styling HTML.
+
+18. How to we select an element? Example - every h2 on the page
+
+h2 {}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+A class is used to select a class of elements, mainly for styling. An id is unique to one element. You might use a class to give a general style to buttons. An id might be given to one button where the action of the user can be recorded when they use said button.
+
+20. How do we select classes in CSS?
+
+.class-name
+
+21. How do we select a p element with a single class of “human””?
+
+p.human
+
+22. What is a parent child selector? When would this be useful? 
+
+This selects a specific child element. This may be useful when you want to style a particular element within the parent where several of the same elements may exist.
+
+23. How do you select all links within a div with the class of sidebar?
+
+.sidebar a {}
+
+24. What is a pseudo selector?
+
+This is to define a particular state of an element.
+
+25. What do we use the change the spacing between lines?
+
+line-height
+
+26. What do we use to change the spacing between letters?
+
+letter-spacing
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+text-transform
+
+28. How do I add a 1px border around my div that is dotted and black?
+
+border: 1px dotted black;
+
+29. How do I select everything on the page? 
+
+* {}
+
+30. How do I write a comment in CSS?
+
+/* */
+
+31. How do I find out what file I am in, when I am using the command line?
+
+pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+
+ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+
+rm followed by the name of the file. This may not be reversible.
+
+34. Why should I use version control?
+
+Version control is great for creating features without altering the main code. This goes for teams as well.
+
+35. How often should I commit to github?
+
+Whenever notable changes are made.
+
+36. What is the command we would use to push our repo up to github?
+
+git push -u origin firstName-lastName
+
+37. Walk me through Lambda's git flow.
+
+Fork the project to our own Github.
+Add collaberator if available.
+Clone the project to our local workspace.
+Checkout a branch.
+Push to my Github.
+Submit pull request.
+Add reviewer if available.
+
+Stretch Questions
+
+1. What is the difference between an inline element and a block element?
+
+An inline element only takes the space of itself on the page, whereas a block element takes up the entire width.
+
+2. What happens when an element is positioned absolutely? 
+
+The element is fixed to the coordinates given in relation to it's parent.
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+inline-block
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+block - h1, p, div
+inline - a, img
+inline-block - none
+
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+The box model provides us with a box around the HTML elements. This gives us the ability to manipulate the padding, border, and margin. We can position each element as we'd like given their relationships to their surrounding elements.
